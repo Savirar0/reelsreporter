@@ -1,0 +1,53 @@
+.how-to-earn {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.how-to-earn-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.how-to-earn h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.step {
+    flex: 1;
+    max-width: 300px;
+    margin: 20px;
+    padding: 30px;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    background-color: var(--background-color);
+    transition: transform 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-10px);
+}
+
+.step h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.step p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column;
+        align-items: center;
+    }
+}

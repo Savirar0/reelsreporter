@@ -1,0 +1,71 @@
+.reel-reporters-program {
+  padding: 80px 0;
+}
+
+.program-content {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.program-content h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.program-content > p {
+  font-size: 1.2rem;
+  color: #6c757d;
+  margin-bottom: 40px;
+}
+
+.program-details {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.program-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  max-width: 400px;
+}
+
+.program-card h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.program-card ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+}
+
+.program-card li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.program-card .icon {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.paid-banner {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 40px;
+}

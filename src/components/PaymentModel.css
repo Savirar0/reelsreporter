@@ -1,0 +1,98 @@
+.pm-wrap {
+  font-family: 'Inter', sans-serif;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.pm-hero {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.pm-hero h1 {
+  margin-bottom: 5px;
+}
+
+.pm-inputs {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.pm-inputs label {
+  flex: 1;
+}
+.pm-inputs .small {
+  flex: 0.5;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+#subsInput, #platform {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.hint {
+  font-size: 0.85em;
+  text-align: right;
+  flex: 1;
+}
+
+.result-card {
+  min-height: 200px;
+}
+.result-card .loader-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #888;
+}
+.result-card .range {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+.result-card .row, .result-card .view-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+.result-card .value {
+  font-weight: 600;
+}
+.result-card .view-list {
+  border-top: 1px solid #eee;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+.result-card .milestone {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #f0f7ff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.muted {
+  color: #666;
+}
+.small {
+  font-size: 0.9em;
+}
+
+footer.muted.small {
+  text-align: center;
+  margin-top: 25px;
+}
