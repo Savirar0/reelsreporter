@@ -2,7 +2,7 @@ import React from 'react';
 import Hero from '../components/Hero';
 import InfoSection from '../components/InfoSection';
 import ReelReportersProgram from '../components/ReelReportersProgram';
-import BecomeReelReporter from '../components/BecomeReelReporter';
+import FourSteps from '../components/FourSteps';
 import PaymentModel from '../components/PaymentModel';
 
 const HomePage = () => {
@@ -12,7 +12,7 @@ const HomePage = () => {
       <InfoSection />
       <PaymentModel />
       <ReelReportersProgram />
-      <BecomeReelReporter />
+      <FourSteps />
     </>
   );
 };

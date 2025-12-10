@@ -4,9 +4,26 @@
 }
 
 .info-content {
-  max-width: 900px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
+}
+
+.info-text {
+  flex: 1.5;
+  padding-right: 50px;
+}
+
+.info-image {
+  flex: 1;
+}
+
+.info-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .info-content h2 {
@@ -23,7 +40,7 @@
 
 .steps-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 40px;
 }
 
@@ -43,7 +60,7 @@
 }
 
 .cta-button {
-  background-color: #007bff;
+  background-color: #FFC107;
   color: white;
   padding: 15px 40px;
   border: none;
@@ -55,5 +72,17 @@
 }
 
 .cta-button:hover {
-  background-color: #0056b3;
+  background-color: #FFB300;
+}
+
+@media (max-width: 768px) {
+  .info-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .info-text {
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
 }
