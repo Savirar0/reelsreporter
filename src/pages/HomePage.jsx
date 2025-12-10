@@ -4,6 +4,8 @@ import InfoSection from '../components/InfoSection';
 import ReelReportersProgram from '../components/ReelReportersProgram';
 import FourSteps from '../components/FourSteps';
 import PaymentModel from '../components/PaymentModel';
+import Payments from '../components/Payments';
+import Footer from '../components/Footer';
 
 const HomePage = () => {
   return (
@@ -13,6 +15,8 @@ const HomePage = () => {
       <PaymentModel />
       <ReelReportersProgram />
       <FourSteps />
+      <Payments />
+      <Footer />
     </>
   );
 };
